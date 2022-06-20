@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // db.js
-axios.defaults.baseURL= 'http://localhost:5000';
+axios.defaults.baseURL= 'http://myjson.dit.upm.es/api/bins/aco5';
 
 // C
 export const createUserAPI = async (user) => axios.post(`/users` , user);
